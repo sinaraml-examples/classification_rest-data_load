@@ -1,0 +1,21 @@
+{
+    "pipeline_params":
+    {
+        "env_name":"user",
+        "pipeline_name":"classification_rest",
+        "zone_name":"test"
+    },
+    "step_params": {},
+    "substeps_params":
+    [
+        {
+            "substep_name":"data_load.ipynb",
+            "substep_params":
+            {
+                "cifar10_datasets_url": "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz"                
+                
+            }
+        }
+    ]
+}
+
